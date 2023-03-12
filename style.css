@@ -6,44 +6,38 @@
 
 body{
     width: 100%;
-    background-color: #1a2037;
+    background-color: #f48e58;
     font-family: 'Raleway', sans-serif;
 }
 
 header{
     height: 80px;
-    width: 100%;
-    display: flex;
-    background-color: black;
+    max-width: 100%;
+    background-color: #151844;
     color: white;
 
 }
 
+
 nav{
     display: flex;
+    height: 35px;
+    justify-content:end;
     align-items: center;
+
+    
 }
 
 ul a{
     text-decoration: none;
     color: #fff;
-}
-
-div{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    width: 100%;
 
 }
-img{
-    width: 100%;
-    height: 65px;
-    align-items: center;
+ul a:last-child{
+    border-right: 12px solid rgba(245, 222, 179, 0);
+}
+
+h1{
     
-    
-    
-    
-    
-    
+    color: white;
 }
