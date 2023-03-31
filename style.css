@@ -124,6 +124,7 @@ div.caixahb{
     text-align: center;
     margin-top: 15vh;
     margin-bottom: 5vh;
+
 }
 
 
@@ -142,9 +143,11 @@ div.caixahb{
     height: 500px;
     width: 100%;
     color:aliceblue;
-    border:3px solid #ccc9dc;
+    border:3px solid #c3c1ca;
     border-radius: 5%;
     overflow: hidden;
+    position: relative;
+
 }
 
 
@@ -163,7 +166,12 @@ div.caixahb{
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
+    
+}
 
+.button-container button{    top: 70%;
+    position: absolute;
+    top: 70%;
 }
 
 button {
@@ -195,6 +203,16 @@ footer{
     .containerproj{
         flex-direction: column;
         margin-bottom: 100px;
+    }
+
+    
+    .button-container button{
+    position: static;
+
+    }
+
+    .button-container{
+        margin-top: 15px;
     }
 
 }
